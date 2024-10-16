@@ -1,0 +1,409 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./Main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Tourism</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <h1>TourEase</h1>
+              </a>
+              <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+            
+          </nav>
+
+          <!-- cards -->
+          <div class="d-flex justify-content-around flex-wrap ">
+            <div class="card text-bg-dark mb-3" style="width: 18rem; ">
+                <a href="#weekend">
+                <img src="https://www.incredibleindia-tourism.org/images/banner/delhi.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Weekend Gateways</h5>
+                </div>
+            </a>
+              </div>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#shortb">
+                    <img src="https://www.incredibleindia-tourism.org/images/banner/rajasthan.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Short Breakes</h5>
+                </div>
+              </div>
+                </a>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#pigli">
+                    <img src="https://www.incredibleindia-tourism.org/images/banner/pushkar.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">pilgrimage Tour</h5>
+                </div>
+                 </a> 
+              </div>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#tour">
+                    <img src="https://www.incredibleindia-tourism.org/images/banner/rafting.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Adventure Holidays</h5>
+                </div>
+                </a> 
+              </div>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#advn">
+                <img src="https://www.incredibleindia-tourism.org/images/banner/jim_corbett_national_park.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Wildlife Holidays</h5>
+                </div>
+            </a>
+              </div>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#Hill">
+                  <img src="https://www.incredibleindia-tourism.org/images/banner/mountain.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Hill Stations</h5>
+                </div>
+                </a>
+              </div>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#Golden_Triangle">
+                  <img src="https://www.incredibleindia-tourism.org/images/banner/jaipur.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Goldan Triangle</h5>
+                </div>
+                </a>   
+              </div>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#kerala">
+                  <img src="https://www.incredibleindia-tourism.org/images/banner/kerala.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Kerala Tours</h5>
+                </div>
+                </a>
+              </div>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#Ayurveda">
+                  <img src="https://www.incredibleindia-tourism.org/images/banner/massage.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Ayurveda & Spa</h5>
+                </div>
+                </a>
+              </div>
+              <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                <a href="#States">
+                  <img src="https://www.incredibleindia-tourism.org/images/banner/kathakali.jpg" class="card-img" alt="wekimg">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">States in India</h5>
+                </div>
+                </a>
+                
+              </div>   
+              </div>
+          </div>
+         <!-- caurosal -->
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://img.freepik.com/free-photo/building-decorated-indian-republic-day_23-2151142425.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="d-block w-100" alt="cauimg">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2019/08/07/06/33/golden-4389970_1280.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2016/03/22/22/45/ferris-wheel-1273841_1280.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
+          <br>
+
+          <!-- details -->
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="weekend">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/premium-photo/plate-food-with-mountain-background_893055-14218.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Weekend Getaways</h5>
+                  <p class="card-text">Need a break from the monotonous and hectic urban life? Plan a weekend tour to the nearby excursions. Visit the unexplored and unpolluted hill stations, dense greens and the age old cultural heritage. India has a wide array of weekend getaways to make you feel refreshing. Experience the most vibrant, colourful and lively aspects of India while visiting the excursions near Delhi, Mumbai/Pune or Bangalore.
+
+                    Visit these destinations any time of the year with family, friends or your partner and refresh your senses. Plan for a short trip to the memorable weekend getaways and pollution free zones to experience a better standard of living.</p>
+
+                    <br>
+                    <ul>
+                        <li>Ex-Mumbai / Pune</li>
+                        <li>South of Mumbai</li>
+                            <li>Alibag</li>
+                            <li>Kashid / Murud</li>
+                            <li>Harihareshwar / Shrivardhan</li>
+                            <li>Dapoli / Harnai</li>
+                            <li>Ganapatipule  </li>
+                            <li>Ratnagiri</li>
+                            <li>Malvan</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- details2 -->
+
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="shortb">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/free-photo/rainbow-end-road-landscape_23-2151596746.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Rajasthan Short Breaks Tours</h5>
+                  <p class="card-text">Indian hill stations, rural areas and deserts are best suited for short breaks. Feeling bored of your routine life and busy schedule? Plan a short trip to the nearby excursion points to refresh your mood. There are a number of hill stations that offer not only spell-binding scenic beauty but also a variety of adventure sports for fun element. Similarly, there are rural areas that showcase the best of untouched and unpolluted natural beauty, and secluded deserts that are known for their rich history, art forms, architecture and traditions.
+
+                    Every state here has some or the other attractions that can provide your mind, body and soul with a soothing effect.</p>
+
+                    <br>
+                    
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- details3 -->
+
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="pigli">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2023/04/27/19/46/banaras-7955321_640.jpg" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">India Pilgrimage Tours</h5>
+                  <p class="card-text">India is a holy land where God is worshiped in its various forms. Here you will find a distinctive form and name of God for every religion and sect. India is a paradise for religious minded people. Visit any state of India and you will see plenty of shrines belonging to various religions and sects. These holy pilgrimage sites are highly revered by the devotees for worshiping as well as for watching the age old architectural wonders. In every nook and corner of the country, these pilgrimages are associated with various legends.
+
+                    Plan a Pilgrimage tour to India and visit the ancient architectural beauties amidst splendid hill stations, lively deserts, dense woods and at the confluences of the holy rives.</p>
+
+                    <br>
+                    <ul>
+
+                        <li>Varanasi</li>
+                            <li>Haridwar</li>
+                            <li>Rishikesh</li>
+                            <li>Dwarka</li>
+                            <li>Palitana  </li>
+                            <li>Chardham</li>
+                            <li>Vrindavan</li>
+                            <li>Shirdi</li>
+                            <li>Mahabaleshwar</li>
+                            <li>Nasik</li>
+                            <li>Bodhgaya</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- details4 -->
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="advn">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/premium-photo/majestic-jungle-animals-their-natural-habitat_1046319-128714.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">India Wildlife Holidays</h5>
+                  <p class="card-text">India is the richest land in terms of dense greens, forests, vegetations and exotic wildlife. Enjoy Jungle/Jeep Safaris in various wildlife sanctuaries and National Parks and visit the rarest of animal/plant species. You will be overwhelmed to see thousands of species of plants, herbs, mammals, birds, amphibians, reptiles and insects. Each category is classified on the basis of climatic and geographic diversities.
+
+                    Wildlife here offers a vibrant and colourful aspect of tourism. Experience the wonderful scenic beauty of these wildlife sanctuaries surrounded by lofty mountains, cascading waterfalls, rivers, lakes and lagoons. Capture each element in your camera and make your holidays memorable for a lifetime.<br><br>
+                <strong>Kaziranga National Park:</strong>A UNESCO World Heritage Site in Assam, this park is home to one-horned rhinoceroses, elephants, tigers, and more. Visitors can explore the park by elephant, jeep, or on foot. <br><br>
+            <strong>Kanha National Park:</strong>Located in Madhya Pradesh, this park is home to tigers, barasingha, Indian bison, and Indian wild dogs. </p>
+
+                    <br>
+                    
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- details5 -->
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="tour">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/premium-photo/man-walking-across-rope-bridge-mountain-style-dark-yellow-bronze-artistic_43335-2311.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">India Adventure Tours</h5>
+                  <p class="card-text">If adventure and thrill is your cup of tea, India is an ideal place suiting your requirements. India, being a land of geographical diversities, offers a wide range of adventure sports/activities for people belonging to all age groups. The country is emerging as a major hub for adventure enthusiasts. There are hill stations, waterways, and several other geographical patterns each offering various kinds of sports.
+
+                    One can try out his/her desired adventure sports like trekking, white water rafting, skiing, scuba diving & snorkeling, Mahseer fishing, Trout fishing, paragliding etc. in India. Plan an adventure tour to today and experience unlimited fun.<br><br>
+                    <strong>Dandeli Tour:</strong>Unlimited excitement, 9-14 km of river rafting facility and a perfect blend of nature and adventure- Dandeli, in Karnataka <br><br>
+                <strong>Rishikesh River Rafting:</strong>Blend your religious tour to Rishikesh with the adventure of white water rafting to make it memorable for a lifetime. </p>
+
+                    <br>
+                    
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- details6 -->
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="Hill">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/free-photo/view-luxurious-villa-with-modern-architectural-design_23-2151694153.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">India Hill Stations</h5>
+                  <p class="card-text">
+                    India is a world famous tourist destination because of its majestic hill stations. Ranging from the lofty Himalayas to the Aravalis and Sahyadris and other mountain ranges, India is a hot destination. These hill stations are well known for a number of adventure sports, spice/tea/coffee plantations and various other attractions. Plan a tour to the hill stations in India and stay as close to the nature as possible.
+
+                    </p>
+
+                    <br>
+                    
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- details7 -->
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="Golden_Triangle">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/premium-photo/couple-exploring-ancient-temple_1203353-45892.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Golden Triangle</h5>
+                  <p class="card-text">
+                    Golden Triangle India is the best way to peep into the rich culture, history and tradition of three most popular cities of the country. This exclusive Delhi Jaipur Agra Tour will take you to another world where you can visit the Indian heritage monuments of capital city, unique culture of the pink city and architectural marvel of Taj in Agra.
+                    </p>
+
+                    <br>
+                    
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- details8 -->
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="kerala">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/premium-photo/quotpicturesque-onam-harvest-festival-celebration-keralaquot_1280275-333856.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Kerala Tour Packages</h5>
+                  <p class="card-text">
+                    Willing to explore God's own country? We have something special for you. Offered by us, Kerala tour packages are designed to ensure your comfort. Affordable prices of Kerala Tours will make your journey pocket-friendly and will allow you to make the trip memorable.
+                    </p>
+                     <br>
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- details9 -->
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="Ayurveda">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/free-photo/small-plant-is-bowl-with-green-leaves_1340-38912.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">India Ayurveda / Spa Tour</h5>
+                  <p class="card-text">
+                    Searching for a leisure-cum-health tour? Visit the wonderland of India where health and medical tourism is on a high. Ayurveda and Spa tourism is one of the fastest growing segments today in India. India the country of rich cultural heritage that offers the best in Spa and Ayurveda therapies. The extensive and well-crafted out Spa and Ayurveda packages are best suited to rejuvenate your body, mind and soul. Plan a tour to India and experience the curative power of nature packed in the lavish greenery and vast space of the picturesque landscapes.
+
+                   The word Ayurveda is derived from its ancient Sanskrit roots- 'Ayus' (life) and 'Veda' (knowledge). It offers a rich and comprehensive outlook to a healthy life. This art of healing is believed to be originated about 5000 years back.
+                    
+
+                    </p>
+
+                    <br>
+                    
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- details10 -->
+          <div class="card mb-3 m-auto" style="max-width: 70%; " id="States">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://img.freepik.com/premium-photo/group-women-sit-dimly-lit-temple-holding-lit-candles-meditating-peaceful-atmosphere_885831-139099.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" class="img-fluid rounded-start"  alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">States of India</h5>
+                  <p class="card-text">
+                    India is a prosperous country with 29 states and 7 Union territories. Every state of this country has a unique charm, a unique history and a unique culture, which makes it stand apart from the rest. One needs more than a lifetime to explore all the states of India as they offer a wide spectrum of tourism possibilities. You meet multilingual people, delve into their faiths, understand their cultures and savour their cuisines.
+
+        
+
+                    Some states of India are known for their serenity as they are still far-away from the modern layers. Visit Mizoram, Meghalaya, Manipur and Nagaland to experience a whole new side of India which is simple yet stunning, unique yet familiar.
+                    
+
+                    </p>
+
+                    <br>
+                    
+                    <button type="button" class="btn btn-outline-danger ml-5">More Details</button>
+                    <button type="button" class="btn btn-outline-warning">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer -->
+          <nav class="navbar sticky-bottom bg-body-tertiary" style="height: 50px;">
+            <div class="container-fluid d-flex">
+              
+              <p>✉️ aparna@gmail.com</p>
+              <p> CONNECT WITH US:  ☎️ 9701053834 <i class="fa-brands fa-twitter"></i>  <i class="fa-brands fa-facebook"></i>  <i class="fa-brands fa-instagram"></i> </p>
+              <p>All Rights Reserved.</p>
+            </div>
+          </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
